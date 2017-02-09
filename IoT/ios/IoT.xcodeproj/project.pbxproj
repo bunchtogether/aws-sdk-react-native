@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7291A8771E4C141B00C3CBDA /* IoT.m in Sources */ = {isa = PBXBuildFile; fileRef = 7291A8761E4C141B00C3CBDA /* IoT.m */; };
+		7291A8781E4C141B00C3CBDA /* IoT.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7291A8751E4C141B00C3CBDA /* IoT.h */; };
+		7291A87E1E4C147E00C3CBDA /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7291A87D1E4C147E00C3CBDA /* AWSCore.framework */; };
+		7291A8801E4C149000C3CBDA /* AWSIoT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7291A87F1E4C149000C3CBDA /* AWSIoT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7291A8711E4C141B00C3CBDA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7291A8781E4C141B00C3CBDA /* IoT.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7291A8691E4C02F900C3CBDA /* AWSRNIoTDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSRNIoTDataManager.m; sourceTree = "<group>"; };
+		7291A8731E4C141B00C3CBDA /* libIoT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIoT.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7291A8751E4C141B00C3CBDA /* IoT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IoT.h; sourceTree = "<group>"; };
+		7291A8761E4C141B00C3CBDA /* IoT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IoT.m; sourceTree = "<group>"; };
+		7291A87D1E4C147E00C3CBDA /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = Frameworks/AWSCore.framework; sourceTree = "<group>"; };
+		7291A87F1E4C149000C3CBDA /* AWSIoT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSIoT.framework; path = Frameworks/AWSIoT.framework; sourceTree = "<group>"; };
+		72CDF48D1E4BDCD1000C5A73 /* AWSRNIoTDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWSRNIoTDataManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7291A8701E4C141B00C3CBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7291A87E1E4C147E00C3CBDA /* AWSCore.framework in Frameworks */,
+				7291A8801E4C149000C3CBDA /* AWSIoT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7291A86B1E4C138600C3CBDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7291A87F1E4C149000C3CBDA /* AWSIoT.framework */,
+				7291A87D1E4C147E00C3CBDA /* AWSCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7291A8741E4C141B00C3CBDA /* IoT */ = {
+			isa = PBXGroup;
+			children = (
+				7291A8751E4C141B00C3CBDA /* IoT.h */,
+				7291A8761E4C141B00C3CBDA /* IoT.m */,
+			);
+			path = IoT;
+			sourceTree = "<group>";
+		};
+		72CDF4801E4BDCD1000C5A73 = {
+			isa = PBXGroup;
+			children = (
+				7291A8741E4C141B00C3CBDA /* IoT */,
+				7291A86B1E4C138600C3CBDA /* Frameworks */,
+				72CDF48C1E4BDCD1000C5A73 /* IoT */,
+				72CDF48B1E4BDCD1000C5A73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72CDF48B1E4BDCD1000C5A73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7291A8731E4C141B00C3CBDA /* libIoT.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72CDF48C1E4BDCD1000C5A73 /* IoT */ = {
+			isa = PBXGroup;
+			children = (
+				72CDF48D1E4BDCD1000C5A73 /* AWSRNIoTDataManager.h */,
+				7291A8691E4C02F900C3CBDA /* AWSRNIoTDataManager.m */,
+			);
+			path = IoT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7291A8721E4C141B00C3CBDA /* IoT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7291A8791E4C141B00C3CBDA /* Build configuration list for PBXNativeTarget "IoT" */;
+			buildPhases = (
+				7291A86F1E4C141B00C3CBDA /* Sources */,
+				7291A8701E4C141B00C3CBDA /* Frameworks */,
+				7291A8711E4C141B00C3CBDA /* CopyFiles */,
+				7291A87C1E4C142600C3CBDA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IoT;
+			productName = IoT;
+			productReference = 7291A8731E4C141B00C3CBDA /* libIoT.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72CDF4811E4BDCD1000C5A73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Amazon Web Services";
+				TargetAttributes = {
+					7291A8721E4C141B00C3CBDA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 72CDF4841E4BDCD1000C5A73 /* Build configuration list for PBXProject "IoT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72CDF4801E4BDCD1000C5A73;
+			productRefGroup = 72CDF48B1E4BDCD1000C5A73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7291A8721E4C141B00C3CBDA /* IoT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7291A87C1E4C142600C3CBDA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"Frameworks/AWSCore.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7291A86F1E4C141B00C3CBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7291A8771E4C141B00C3CBDA /* IoT.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7291A87A1E4C141B00C3CBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7291A87B1E4C141B00C3CBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		72CDF49C1E4BDCD1000C5A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72CDF49D1E4BDCD1000C5A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7291A8791E4C141B00C3CBDA /* Build configuration list for PBXNativeTarget "IoT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7291A87A1E4C141B00C3CBDA /* Debug */,
+				7291A87B1E4C141B00C3CBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72CDF4841E4BDCD1000C5A73 /* Build configuration list for PBXProject "IoT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72CDF49C1E4BDCD1000C5A73 /* Debug */,
+				72CDF49D1E4BDCD1000C5A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72CDF4811E4BDCD1000C5A73 /* Project object */;
+}
